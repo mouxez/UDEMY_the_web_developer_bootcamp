@@ -141,6 +141,63 @@
         <textarea name="paragraph" cols="30" rows="10"></textarea>
         <button type="submit">Go!</button>
     </form>
+    <h2>Registration Form</h2>
+    <form>
+
+        <label>First Name
+            <input name="first" type="text" placeholder="John" required>
+        </label>
+        <Label>Last Name
+            <input name="last" type="text" placeholder="Smith" required>
+        </Label>
+        <div>
+            <label>Male
+                <input type="radio" name="gender" value="male">
+            </label>
+            <label>Female
+                <input type="radio" name="gender" value="female">
+            </label>
+            <label>Other
+                <input type="radio" name="gender" value="other">
+            </label>
+        </div>
+        <div>
+            <label>Email:
+                <input name="email" type="email" placeholder="your email" required>
+            </label>
+            <label>Password:
+                <input name="password" type="password" pattern=".{5,10}" required title="5 to 10 characters">
+            </label>
+        </div>
+        <div>
+            <label>Birthday
+                <select name="month">
+                    <option value="">Month</option>
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                    <option value="">Mar</option>
+                </select>
+                <select name="day">
+                    <option value="">Day</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                </select>
+                <select name="year">
+                    <option value="">Year</option>
+                    <option value="">2017</option>
+                    <option value="">2018</option>
+                    <option value="">2019</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>I agree to the terms and conditions:
+                <input type="checkbox" name="agreed">
+            </label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 
 </html>
