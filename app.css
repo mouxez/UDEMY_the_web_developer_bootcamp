@@ -1,5 +1,8 @@
 h1 {
 	color: purple;
+	background-color: white;
+	border-width: 5px;
+	border-style: solid;
 }
 
 li {
@@ -8,4 +11,10 @@ li {
 
 h4 {
 	color: rgb(240, 100, 87);
+	background-color: blue;
+}
+body {
+	background-image: url("../img/texture_wallpaper_6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
